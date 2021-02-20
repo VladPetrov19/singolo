@@ -99,3 +99,8 @@ nav {
     transform: translateX(-185px);
   }
 }
+
+.nav-active {
+  transform: translateX(0%);
+  transition: transform 0.5s ease-in;
+}
