@@ -65,3 +65,9 @@ nav {
   background-color: white;
   margin: 5px;
 }
+
+@media screen and (max-width: 1024px) {
+  .nav__list {
+    width: 50%;
+  }
+}
