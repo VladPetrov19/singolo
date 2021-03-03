@@ -1,0 +1,44 @@
+.footer {
+    height: 76px;
+    background: #2D303A;
+}
+
+.copy {
+    display: none;
+}
+
+.icons {
+    margin-left: 24%;
+}
+
+.ico {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    justify-content:right;
+    margin-left: 8px;
+    margin-top: 22px;
+}
+
+@media screen and (min-width: 600px) {
+    .copy {
+        position: absolute;
+        display: initial;
+        font-family: Lato;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 18px;
+        color: #666D89;
+        margin-top: 25px;
+        margin-left: 40px;
+    }
+
+    .icons {
+        margin-right: 22px;
+    }
+
+    .ico {
+        float: right;
+        margin-top: 22px;
+    }
+}
